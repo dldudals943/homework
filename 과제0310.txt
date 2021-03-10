@@ -1,0 +1,30 @@
+설치하는 과정을 ppt로 만들어서 제출
+b util
+1 설치 및 압축파일
+그외 
+BANDIZIP-SETUP-KR 설치
+확장자 전부 선택 -> 확인
+22 jdk
+java development kit (자바개발도구)
+7버전은 자바 수업시간 사용
+8버전은 데이터베이스 수업시간 사용
+브라우저에서 오라클 검색
+https://www.oracle.com/kr/index.html <- 접속
+다음을 위한 리소스 - > 개발자 -> java -> java se 개요
+java platform, standard edition 15가 최신 버전이지만 사용 안 함
+know more -> downloads
+java se 7 (로그인을 해야 다운받을 수 있음)
+
+설치파일 실행
+설치 경로 설정 (경로 변경 필요)
+d b util 2. java JDK1.7
+jre (자바 런타임 환경) 그러나 jdk 안에 포함이 되어 있어서 설치를 하면 안 됨 윈도우에서 꼬임
+cancel 하고 close
+
+8설치파일 실행
+설치 경로 설정 (변경 필요)
+d b util 2. java JDK1.8
+jre를 설치하라고 또 뜨지만 cancel 이 없어서 그냥 닫기
+close
+
+경로에 한글이 들어가면 문제가 생기는 프로그램들이 있음
