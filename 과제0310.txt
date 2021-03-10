@@ -46,3 +46,24 @@ close
 JDK 설치 완료
 
 설치 확인을 위해 cmd로 명령프롬프트 실행 - javac -version, - java -version
+
+
+
+---------------------------------
+
+메모장 내용
+public class Hello{
+	public static void main(String[] args){
+		System.out.println("Hello, world!");
+	}
+}
+
+
+Hello.java
+로 인간이 이해할 수 있는 글을 기계가 이해할 수 있게
+javac 라는 컴파일러를 실행하는 명령어를 통해서 컴파일을 시켜서 Hello.class 라는 파일을 만들었음
+
+
+powershell 에서 java Hello 라고 치면 실행이 됨
+
+메모장으로 일일이 하는게 힘들어서 이클립스라는 무료 프로그램을 씀
