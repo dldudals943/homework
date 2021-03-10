@@ -120,3 +120,45 @@ colors and fonts -  basic - text font - edit - consolas - size 만 변경
 package explorer (파일 목록 뜸)
 오른쪽에 내용 뜸
 아래에 콘솔 창 자주 씀 사용자와 커뮤니케이션을 위해 쓰는 창
+
+package explorer - right click - new - java project
+project name : JavaProgramming
+
+src - source의 약자 모든 코드가 여기로 들어감
+src 우클륵 new class
+public static void main(String[] args) 체크하고 finish
+
+이클립스는 저장하면 바로 컴파일이 됨
+
+workspace에서 bin에 가보면 class 파일이 있음
+
+재생 버튼을 누르면 콘솔창에 실행 된 결과가 보임
+
+향후 수업에서는 이클립스를 사용함
+
+데이터베이스 설치하는 것도 정리해서 ppt 만들어야함
+
+45. oracle
+oraclexe112 - 서버
+11rq2_client - 클라이언트
+
+서버부터 설치를 하자
+setup 실행
+b util 4.oracle <- 경로
+
+시스템 계정의 비밀번호를 설정함 (잊어버리면 안 됨)
+java <- 이걸로 통일
+- finish
+오라클은 어디서 받느냐
+
+클라이언트 설치를 해야함
+이상한거 나오는데 예 누름
+instant client - D:\B_Util\4.Oracle\appclient
+(f2 눌러서 폴더 이름 변경)
+설치 - 완료
+
+서버와 클라이언트 설치 끝
+
+sql developer 도 우클릭으로 바로가기 만들기
+sql developer 를 실행하면 jdk의 경로를 알려달라고 함
+D:\B_Util\2.Java\JDK1.8 왜 1.8 이냐면 1.8부터 지원을 하기 때문임
