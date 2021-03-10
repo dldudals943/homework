@@ -66,4 +66,57 @@ javac 라는 컴파일러를 실행하는 명령어를 통해서 컴파일을 �
 
 powershell 에서 java Hello 라고 치면 실행이 됨
 
-메모장으로 일일이 하는게 힘들어서 이클립스라는 무료 프로그램을 씀
+메모장으로 일일이 하는게 힘들어서 이클립스(eclipse)라는 무료 프로그램을 씀
+설치가 아니라 압축만 풀면 됨 - 알아서 풀기
+
+eclipse 는 어디서 받냐면 https://www.eclipse.org/ 에서 downloads 들어가면 최신 버전이 있지만
+
+jdk1.7과 맞는 이클립스 버전을 사용해야함
+
+download package -> more download -> older version -> kepler 버전을 사용할 것임 -> SR2 packges -> Eclipse IDE for Java EE Developers
+이클립스 enterprise edtion (웹개발을 위해서 사용하는 것) -> windows 32bit or x86_64 본인 윈도우 환경에 맞춰서 받아야함
+
+내 pc - 시스템 - 64비트 운영체제 에서 확인하고 받으면 됨
+
+eclipse 로 돌아와서 실행파일과 환경파일이 있음
+환경파일 - 우클릭 - 편집 - 
+
+-Xms40m
+-Xmx512m
+
+이클립스 실행할 때 메모리를 얼마나 할당할 것인가? 최소 40mb 최대 512mb
+
+-Xms1024m
+-Xmx1024m
+
+min max 를 모두 1024mb 로 바꿔줘야함
+
+실행파일에 우클릭 - 보내기 - 바탕화면에 바로가기 만들기
+
+실행 - workspace (작업공간 설정) - D:\A_TeachingMaterial\1.BasicJava\workspace
+
+java ee (웹개발을 하기 위한 화면) - open perspective - java
+
+windows - preferences - encoding 검색
+문자를 표현하는 방법(encoding) 일치하지 않으면 읽을 수가 없음 그래서 인코딩을 맞춰주고 시작해야함
+
+default encoding - UTF-8 로 4개 다 통일해서 업데이트
+
+text 에서 세부항목도 모두 UTF-8로 바꿔줘야됨
+
+workspace other - UTF-8
+css files encoding - UTF-8
+html files - UTF-8
+jsp files - UTF-8
+xml files - UTF-8
+
+general
+apperance
+colors and fonts -  basic - text font - edit - consolas - size 만 변경
+글꼴은 변경하면 안 됨
+
+환경설정 끝
+
+package explorer (파일 목록 뜸)
+오른쪽에 내용 뜸
+아래에 콘솔 창 자주 씀 사용자와 커뮤니케이션을 위해 쓰는 창
