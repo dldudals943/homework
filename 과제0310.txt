@@ -162,3 +162,29 @@ instant client - D:\B_Util\4.Oracle\appclient
 sql developer 도 우클릭으로 바로가기 만들기
 sql developer 를 실행하면 jdk의 경로를 알려달라고 함
 D:\B_Util\2.Java\JDK1.8 왜 1.8 이냐면 1.8부터 지원을 하기 때문임
+임포트 뜨면 아니오
+
+실행후 접속 + 버튼 - system - java - 비밀번호 저장
+
+local computer 는 자기 컴퓨터를 말함
+호스트 이름 localhost
+테스트를 누르면 성공이라고 떠야됨
+이 정보를 저장하기 위해서 저장을 눌러야됨
+저장 - 접속 하면 system 계정으로 접속이 됨
+
+모든 설치가 다 끝남 이 설치 내용을 ppt 로 만들어서 다음주 수요일까지 제출
+제출을 어디로 하느냐 공유 폴더에다가 해야됨
+\\sem-pc
+
+
+오라클 받는 방법
+
+다음을 위한 리소스 - 개발자 - 데이터베이스 - oracle database -
+Oracle Database 11g Release 2 Express Edition for Windows 64 (서버)
+(클라이언트는 못 찾음)
+밑에보니까 뭐 로그인하면 다운이 가능할지도 모르겠음
+
+도구
+oracle sql developer
+sql developer
+windows 32-bit/64-bit download (432 mb)
