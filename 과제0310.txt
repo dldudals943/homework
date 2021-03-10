@@ -40,3 +40,9 @@ close
 - 시스템 변수에 등록을 해야함 ( 모든 사용자 공통을 위해) - 새로 만들기 - 변수이름 : JAVA_HOME - 변수값 : D:\B_Util\2.Java\JDK1.7
 
 - 디렉터리 찾아보기에서 JDK1.7 을 찾아 선택
+
+- path 에다가 등록을 해야함 - path 편집 - 새로 만들기 - %JAVA_HOME%\bin - 확인 - 확인 - 확인
+
+JDK 설치 완료
+
+설치 확인을 위해 cmd로 명령프롬프트 실행 - javac -version, - java -version
