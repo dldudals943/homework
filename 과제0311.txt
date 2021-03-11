@@ -1,3 +1,83 @@
 https://drive.google.com/drive/my-drive
 
-에 가면 그날그날 한 수업 내용이 있음
+에 가면 공유폴더에 그날그날 한 DB 수업 내용이 있음
+
+원격저장소 이름은 origin 
+
+domain 이라는 개념
+
+https://www.naver.com/ ==> DNS 서버 ==> 123.122.50.1 (네이버 서버 아이피)
+
+working area	staging area	local repository	remote repository
+	     add		    commit	       push
+
+sql developer <-- 이것도 client이므로 혼자서는 안 됨
+
+git-scm.com
+gui clients
+
+source tree (client) ==> git
+SQL developer (client) ==> oracle(DBMS의 한 종류) server 
+오라클 서버가 있다는 전제하에 실행을 하는 것임
+
+sql developer 접속 + system system java
+
+시작키 - 서비스 - oracle 서버가 실행이 되어야한다
+
+프로그램이 실행되는 영역 : 메모리 (RAM)
+
+작업 내용을 프로그램 종료 후에도 다시 사용 할 수 있도록 파일로 저장
+
+binary(이진) 파일과 txt 파일로 나뉨 딱 두 가지
+.mp3 .mp4 .hwp ... etc 는 이진 파일
+
+두 번째 사용자부터는 편집이 불가능. 읽기 전용으로 봐야함. 동시 파일 편집이 불가능
+
+파일은 전용 프로그램이 필요하고 동시 접속이 불가능
+
+데이터를 효과적으로 관리할 시스템 - > DBMS (database management system)
+
+java 언어로 DBMS 랑 통신함
+
+file system vs DBMS
+
+file system
+데이터 중복 / 복구 미흡
+보안 / 공유 미흡
+프로그램이 파일에 종속
+
+DBMS
+보안/공유
+데이터 중복 방지
+SQL 표준에 따른 프로그램 비종속
+백업/복구
+
+중복이 방지되는 것을 데이터 무결성이라고 한다.
+
+최종 수업 목표
+데이터 모델링을 보고, 주어진 조건을 만족하는 sql을 작성할 수 있다.
+java 프로그램을 통해 sql을 실행 할 수 있다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
