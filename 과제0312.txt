@@ -1,0 +1,21 @@
+어제한 것의 복습
+
+1. 파일과 dbms의 차이
+2. sql 구문의 종류 4가지
+	ddl,dml(select, insert, delete, update) ,dcl, tcl
+3. 수업시간 SQL coding rule
+	keyword 는 대문자, 그 외에는 소문자 (다른 곳에 가면 달라질 수 있음)
+4. 트랜잭션 : 논리적인 일의 단위
+	여러 일을 한 일로 묶음
+	원자성
+5. SQL은 DBMS과 통신하기 위한 유일한 수단
+	NOSQL(비정형 제품) => 제품마다 다르다
+6.
+SELECT 테이블의 컬럼명을 콤마로 구분하여 나열 | *
+FROM 가져올 데이터가 담긴 테이블 이름;
+
+SELECT *
+FROM emp;
+
+SELECT empno, ename
+FROM emp;
