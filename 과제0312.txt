@@ -19,3 +19,108 @@ FROM emp;
 
 SELECT empno, ename
 FROM emp;
+
+sem 계정에 있는 prod 테이블의 모든 컬럼을 조회하는 SELECT 쿼리(SQL) 작성
+쿼리 = SQL
+
+컬럼에 문제가 생겼을 때
+
+ORA-00904: "PROD_NAME1": invalid identifier
+00904. 00000 -  "%s: invalid identifier"
+*Cause:    
+*Action:
+8행, 17열에서 오류 발생
+
+테이블에 문제가 생겼을 때
+
+ORA-00942: table or view does not exist
+00942. 00000 -  "table or view does not exist"
+*Cause:    
+*Action:
+9행, 6열에서 오류 발생
+
+
+SELECT1
+
+lprod 테이블에서 모든 데이터를 조회하는 쿼리를 작성하세요
+    
+SELECT *
+FROM lprod
+    
+    buyer 테이블에서 buyer_id, buyer_name 컬럼만 조회하는 쿼리를 작성하세요
+    
+SELECT buyer_id, buyer_name
+FROM buyer
+
+    cart 테이블에서 모든 데이터를 조회하는 쿼리를 작성하세요
+    
+SELECT *
+FROM cart
+
+    member 테이블에서 mem_id, mem_pass, mem_name 컬러만 조회하는 쿼리를 작성하세요
+    
+SELECT mem_id, mem_pass, mem_name
+FROM member
+    
+    
+연산
+
+숫자, 날짜 타입에 대해 가능한 연산
+operator description
++	더하기
+- 빼기
+* 곱하기
+/ 나누기
+() 우선순위 변경
+
+EMPNO	NUMBER(4,0)	No		1	
+ENAME	VARCHAR2(10 BYTE)	Yes		2	
+JOB	VARCHAR2(9 BYTE)	Yes		3	
+MGR	NUMBER(4,0)	Yes		4	
+HIREDATE	DATE	Yes		5	
+SAL	NUMBER(7,2)	Yes		6	
+COMM	NUMBER(7,2)	Yes		7	
+DEPTNO	NUMBER(2,0)	Yes		8	
+
+number(4,0) 4자리에 소숫점 자리가 없다
+number(7,2) 7자리에 소숫저 둘째자리 까지
+
+VARCHAR2(10 BYTE) 문자열을 10byte까지 저장가능
+
+숫자, 날짜에서 사용가능한 연산자
+일반적인 사칙연산 + - / * , 우선순위 연산자 ()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
