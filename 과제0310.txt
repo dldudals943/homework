@@ -140,7 +140,7 @@ workspace에서 bin에 가보면 class 파일이 있음
 
 45. oracle
 oraclexe112 - 서버
-11rq2_client - 클라이언트
+11gr2_client - 클라이언트
 
 서버부터 설치를 하자
 setup 실행
