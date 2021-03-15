@@ -5,3 +5,8 @@ java 가독성이 좀 안 좋은 것 같다.
 
 오늘 오후는 c_statement package에서
 ConditionalStatement class를 만들어서 배웠다.
+
+
+그래서 오늘의 과제는
+
+탄수화물 중독 자가진단 테스트를 할 수 있는 프로그램을 만들어주세요.
