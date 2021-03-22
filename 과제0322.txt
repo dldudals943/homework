@@ -1,0 +1,20 @@
+eclipse 단축키
+
+ctrl f8 퍼스펙티브 옮기기
+ctrl f7 뷰 옮기기
+ctrl m 최대화
+f12 무조건 에디터뷰로
+ctrl pageup , ctrl pagedown  class옮기기
+f3 메서드 찾기
+
+alt <- 뒤로가기
+alt -> 앞으로가기
+
+ctrl w 누르면 .java가 닫힘
+ctrl shift w 다 닫힘
+
+link with editor - .java의 위치 찾아줌
+
+ctrl shift r 파일 이름 찾기
+
+f4 f5 논리모드 물리모드
