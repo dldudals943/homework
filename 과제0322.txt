@@ -18,3 +18,26 @@ link with editor - .java의 위치 찾아줌
 ctrl shift r 파일 이름 찾기
 
 f4 f5 논리모드 물리모드
+
+ctrl end --  sql 출력결과를 끝까지 
+
+join 8~13까지는 과제
+
+outer join 방식이 있다 연결에 실패해도 두 개 중에 한 개만있다면 출력
+inner join 방식
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
