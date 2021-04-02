@@ -8,6 +8,7 @@ Ctrl + Shift + / : 선택 영역 Block Comment 설정
 Ctrl + Shift + \ : 선택 영역 Block Comment 제거
 Ctrl + Shift + X : 대문자로 변환
 Ctrl + Shift + Y : 소문자로 변환
+Ctrl + Shift + F4 : 열린 창 모두 닫기
 
 Ctrl + Alt + up/down : 한줄 duplicate
 Ctrl + F7 : 뷰간 전환
