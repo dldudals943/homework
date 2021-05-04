@@ -1,0 +1,26 @@
+선택자 문법
+끝에 반드시 ;를 적어준다.
+
+*인라인스타일
+<div style="border:3px solid red; background-color:green">
+~~~~~</div>
+
+
+
+
+*외부/내부스타일
+<div>~~~~~</div>
+<span>~~~~~</span>
+
+div{
+	border: 3px solid red;
+	background-color: green;
+}
+
+span{
+	~~~~
+}
+
+주석은 자바와 같다.
+
+notion 블로그
